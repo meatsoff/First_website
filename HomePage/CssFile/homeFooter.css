@@ -1,0 +1,58 @@
+footer{
+    width: 100%;
+    height: 240px;
+    text-align: center;
+    margin: 0px;
+    color: white;
+    background-color: rgb(197, 170, 170);
+    align-items: center;
+    padding-top: 20px;
+
+}
+p a{
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(40, 61, 182);
+}
+p a:hover{
+    color: wheat;
+}
+i{
+    padding-left: 10px;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+footer a i:hover{
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 70%;
+    text-decoration: none;
+    color: wheat;
+}
+b{
+    text-decoration: underline;
+}
+
+.rightF{
+    float: left;
+    width: 50%;
+}
+.leftF{
+    float: left;
+    width: 50%;
+}
+.inner h1{
+    color: black;
+    font-family: cursive;
+    font-style: italic;
+}
+.inner h3{
+    color: black;
+    font-family: cursive;
+    font-style: italic;
+}
+.leftF i{
+    font-size: 15px;
+    margin-right: 5px;
+}

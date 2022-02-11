@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 204, 213);
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: rgb(214, 202, 184);
+    position: block;
+    top: 0px;
+    float: top;
+    opacity: 1;
+}
+header nav ul li{
+    list-style: none;
+    float: left;
+    padding: 7px 20px;
+    color: black;
+    border: none;
+}
+header nav ul li:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-bottom: 1.5px solid black ;
+}
+.LoginBtn{
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(255, 0, 0);
+    margin-left: 50px;
+    transition: transform 80ms ease-in;
+    
+}
+.LoginBtn:hover{
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.LoginBtn:focus{
+    outline: none;
+}
+.LoginBtn p{
+    margin: 10px 20px;
+    color: black;
+}
+.logo{
+    opacity: 0.85;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    padding-right: 60px;
+}
+.logo > a{
+    text-decoration: none;
+    color: rgb(65, 51, 51);
+}
+.logo:hover{
+    opacity: 1;
+    font-size: 22px;
+}
+.openbtn{
+    border: 0px;
+    font-size: 23px;
+    background-color:  rgb(255, 0, 0);
+    border-radius: 5px;
+    padding: 2px 10px;
+} 
+.openbtn:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.openbtn:focus{
+    outline: none;
+}
+.sidebar{
+    height: 70%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(214, 202, 184);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 70px;
+    border-radius: 0 0 200px 0;
+}
+.sidebar a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+} 
+.sidebar a:hover{
+    color: #ffffff;
+} 
+.sidebar .closebtn{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 36px;
+}
+
+.search{
+    border: 3px solid red;
+    height: 47px;
+    margin: 5px auto;
+    width: 40%;
+    border-radius: 50px;
+    position: relative;
+    background-color: white;
+}
+.search-box{
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+.words{
+    border: none;
+    height: 100%;
+    width: 80%;
+    border-radius: 50px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.words:focus{
+    outline: none;
+}
+.search-icon{
+    font-size: 17px;
+    color: black;
+    position: relative;
+    margin: auto;
+    padding-left: 7px;
+}
+@media screen and (max-width: 630px){
+    .search {
+        width: 80%;
+    }
+    li{
+        display:none;
+    }
+}

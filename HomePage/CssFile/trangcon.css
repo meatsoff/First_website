@@ -1,0 +1,137 @@
+.up{
+  text-align: center;
+}
+.divtren{
+  display: flex;
+  margin: 0px 42px;
+  text-align: center;
+}
+#right, #left{
+  width: 100%; 
+  border-radius: 15px;
+}
+#left {   
+  float:left;
+  margin-top: auto; 
+}
+#left img{
+  width: 95%;
+  height: auto;
+  margin-right: 54px;
+}
+#right{   
+  padding: 20px 18px 0px 30px;
+  text-align: left;
+  background-color: whitesmoke; 
+}
+/*tên sản phẩm*/
+#tensp{
+  font-size: 30px;
+}
+/*tiền*/
+#tien{
+  float:left;
+  font-size: 2.875rem;                  
+  font-weight: 600;                     
+  color: #ee4d2d;
+}
+/*Số lượng*/
+#soluong{
+  margin: auto; 
+  font-size: 20px;
+  color: rgb(136, 117, 117);
+}
+#nutt{
+  font-size: 25px;
+  text-align-last:center;
+}
+#inc{
+  text-align: center;
+  width: 31px;
+  height: 40px;
+}
+#button1{
+  height: 40px;
+}
+/*mau*/
+#mau{
+  font-size: 20px;
+  color: rgb(136, 117, 117);
+}
+#size{
+  font-size: 20px;
+  color: rgb(136, 117, 117);
+}
+
+#nutmau:hover{
+  color: red;
+  border:1px solid;
+}
+#nutmau:focus{
+  outline: none;
+}
+#button {
+  border: none;
+  padding: 8px 5px;
+  font-size: 22px;
+  border-radius: 20px;
+  margin:20px;
+  margin-left:60px;
+  transition: transform 80ms ease-in;
+  background-color: rgb(255, 100, 73);
+}
+#free #button:hover{
+  background-color:rgb(226, 193, 193);
+}
+/*chitiet*/
+#ct1{
+  text-align: center; 
+}
+/*mô tả*/
+#divduoi1{
+  background-color:  rgb(248,231,231);
+  transform: translate(3%, 0%);
+  width: 94.2%;
+  border-radius: 30px;
+}
+/*chitiet*/
+#divduoi{
+  background-color:  rgb(248,231,231);;
+  transform: translate(3%, 0%);
+  width: 94.2%; 
+  border-radius: 30px;
+}
+#div2 ul h2{
+  margin-left: 0px;
+  font-size: 30px;
+}
+#div2 ul li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+pre{
+  width: 45%;
+  border: none;
+  margin-left: -10px;
+  font-size: 15px;
+  list-style: none;
+  background-color:  rgb(248,231,231);;
+}
+#divct{  
+  margin-left: 15px;
+}
+#ctsp{
+  width: 917px;
+}
+h1{
+  padding: 10px;
+}
+
+#free #button:focus{
+  outline: none;
+}
+#free #button:active{
+  transform: scale(0.95);
+}
+
